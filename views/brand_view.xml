@@ -1,0 +1,14 @@
+<odoo>
+	<data>
+		<record id="view_brand_tree" model="ir.ui.view">
+            <field name="name">product.brand.tree</field>
+            <field name="model">product.brand</field>
+            <!-- <field name="priority">4</field> -->
+            <field name="arch" type="xml">
+                <tree string="Style" editable="top">
+                    <field name="name" invisible="0"/>
+                </tree>
+            </field>
+        </record>
+	</data>
+</odoo>
